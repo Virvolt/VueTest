@@ -1,9 +1,10 @@
-<script setup>
-import OrderNumber from './components/OrderNumber.vue'
-</script>
-
 <template>
-  <OrderNumber/>
+  <div id="app">
+    <ComplimentGenerator />
+  </div>
 </template>
 
+<script setup>
+import ComplimentGenerator from './components/ComplimentGenerator.vue'
+</script>
 
